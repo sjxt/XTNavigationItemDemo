@@ -25,6 +25,8 @@
     
     [self addRightThreeBarButtonsWithFirstImage:[UIImage imageNamed:@"mine-sun-icon"] firstAction:nil secondImage:[UIImage imageNamed:@"nav_coin_icon_click"] secondAction:nil thirdImage:[UIImage imageNamed:@"shuju"] thirdAction:nil];
     
+    
+    [self setNavTitle:@"第三页" withColor:[UIColor blackColor]];
 }
 
 

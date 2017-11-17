@@ -20,5 +20,11 @@
 - (void)addRightThreeBarButtonsWithFirstImage:(UIImage *)firstImage firstAction:(SEL)firstAction secondImage:(UIImage *)secondImage secondAction:(SEL)secondAction thirdImage:(UIImage *)thirdImage thirdAction:(SEL)thirdAction;
 - (void)addRightFourBarButtonsWithFirstImage:(UIImage *)firstImage firstAction:(SEL)firstAction secondImage:(UIImage *)secondImage secondAction:(SEL)secondAction thirdImage:(UIImage *)thirdImage thirdAction:(SEL)thirdAction fourthImage:(UIImage *)fourthImage fourthAction:(SEL)fourthAction;
 
+/** 导航标题设置 */
+-(void)setNavTitle:(NSString *)title;
+-(void)setNavTitle:(NSString *)title withAction:(SEL)action;
+-(void)setNavTitle:(NSString *)title withColor:(UIColor *)color;
+
+
 
 @end

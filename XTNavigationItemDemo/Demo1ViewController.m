@@ -31,6 +31,7 @@
     UIImageView *img = [[UIImageView alloc] initWithFrame:view.frame];
     img.image = [UIImage imageNamed:@"Disqus.png"];
     img.contentMode = UIViewContentModeScaleAspectFit;
+//    [view setTextAlignment:NSTextAlignmentCenter];
     [view addSubview:img];
     self.navigationItem.titleView = view;
 }

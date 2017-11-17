@@ -167,4 +167,45 @@
 }
 
 
+-(void)setNavTitle:(NSString *)title
+{
+    
+    UILabel *navTitleView = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 44)];
+    [navTitleView setText:title];
+    [navTitleView setFont:[UIFont systemFontOfSize:17]];
+    //    [navTitleView setFont:[UIFont fontWithName:@"Helvetica-Bold" size:17.f]];
+    [navTitleView setTextColor:[UIColor whiteColor]];
+    [navTitleView setTextAlignment:NSTextAlignmentCenter];
+    [self.navigationItem setTitleView:navTitleView];
+}
+-(void)setNavTitle:(NSString *)title withColor:(UIColor *)color{
+    UILabel *navTitleView = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 44)];
+    [navTitleView setText:title];
+    [navTitleView setFont:[UIFont systemFontOfSize:18]];
+    [navTitleView setTextColor:color];
+    [navTitleView setTextAlignment:NSTextAlignmentCenter];
+    [self.navigationItem setTitleView:navTitleView];
+    
+}
+
+
+-(void)setNavTitle:(NSString *)title withAction:(SEL)action
+{
+    UILabel *navTitleView = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 44)];
+    [navTitleView setText:title];
+    [navTitleView setTextColor:[UIColor whiteColor]];
+    [navTitleView setFont:[UIFont systemFontOfSize:17]];
+    [navTitleView setTextAlignment:NSTextAlignmentCenter];
+    if (action && [self respondsToSelector:action]) {
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:action];
+        [navTitleView addGestureRecognizer:tap];
+        [navTitleView setUserInteractionEnabled:YES];
+        [self.navigationItem setTitleView:navTitleView];
+    }
+}
+
+
+
+
+
 @end

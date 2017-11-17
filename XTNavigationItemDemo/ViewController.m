@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Demo1ViewController.h"
+#import "UIViewController+BarButton.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,11 @@
     UIBarButtonItem *btn2 = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_coin_icon_click"] style:UIBarButtonItemStyleDone target:self action:@selector(btn2Action)];
     
     self.navigationItem.rightBarButtonItems = @[btn1, btn2];
+    
+    
+//    [self setNavTitle:@"首页"];
+    
+    [self setNavTitle:@"第一页" withColor:[UIColor blackColor]];
 }
 
 
