@@ -27,6 +27,8 @@
     self.tabBarController.tabBar.translucent = NO;
     
     
+    
+    
     UIBarButtonItem *btn1 = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mine-sun-icon"] style:UIBarButtonItemStyleDone target:self action:@selector(btn1Action)];
     
     UIBarButtonItem *btn2 = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_coin_icon_click"] style:UIBarButtonItemStyleDone target:self action:@selector(btn2Action)];

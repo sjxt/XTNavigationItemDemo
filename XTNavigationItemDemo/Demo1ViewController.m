@@ -26,6 +26,12 @@
     [self addLeftBarButtonWithImage:[UIImage imageNamed:@"navigationButtonReturnClick"] action:@selector(backAction)];
     [self addRightTwoBarButtonsWithFirstImage:[UIImage imageNamed:@"mine-sun-icon"] firstAction:@selector(action1) secondImage:[UIImage imageNamed:@"nav_coin_icon_click"] secondAction:@selector(doneAction)];
 
+//        if (@available(iOS 11.0, *)) {
+//            self.navigationController.navigationBar.prefersLargeTitles = YES;
+//            self.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAutomatic;
+//        }
+    
+    
     // titleView
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 180, 20)];
     UIImageView *img = [[UIImageView alloc] initWithFrame:view.frame];
@@ -34,6 +40,8 @@
 //    [view setTextAlignment:NSTextAlignmentCenter];
     [view addSubview:img];
     self.navigationItem.titleView = view;
+//
+//    self.navigationItem.title = @"1234";
 }
 
 

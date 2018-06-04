@@ -185,7 +185,6 @@
     [navTitleView setTextColor:color];
     [navTitleView setTextAlignment:NSTextAlignmentCenter];
     [self.navigationItem setTitleView:navTitleView];
-    
 }
 
 

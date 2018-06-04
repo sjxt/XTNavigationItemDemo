@@ -15,12 +15,13 @@
 		21DA0A8B1FB11C73008145E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0A8A1FB11C73008145E1 /* main.m */; };
 		21DA0A931FB11C8E008145E1 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0A921FB11C8E008145E1 /* Demo1ViewController.m */; };
 		21DA0A9D1FB14635008145E1 /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0A9C1FB14635008145E1 /* UIViewController+BarButton.m */; };
-		21DA0AA41FB1464E008145E1 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0AA01FB1464E008145E1 /* UINavigation+SXFixSpace.m */; };
-		21DA0AA51FB1464E008145E1 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0AA11FB1464E008145E1 /* NSObject+SXRuntime.m */; };
-		21DA0AA61FB1464E008145E1 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0AA21FB1464E008145E1 /* UINavigationController+SXFullScreen.m */; };
-		21DA0AA91FB22642008145E1 /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0AA81FB22642008145E1 /* UIBarButtonItem+SXCreate.m */; };
 		21DA0AAF1FB235D0008145E1 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA0AAE1FB235D0008145E1 /* Demo2ViewController.m */; };
 		21DA0AB41FB23ED4008145E1 /* Disqus.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DA0AB31FB23ED4008145E1 /* Disqus.png */; };
+		82A5BA1C20C5FCEA00FF21DF /* UINavigationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5BA1420C5FCEA00FF21DF /* UINavigationConfig.m */; };
+		82A5BA1D20C5FCEA00FF21DF /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5BA1520C5FCEA00FF21DF /* NSObject+SXRuntime.m */; };
+		82A5BA1E20C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5BA1920C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.m */; };
+		82A5BA1F20C5FCEA00FF21DF /* UINavigationController+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5BA1A20C5FCEA00FF21DF /* UINavigationController+SXFixSpace.m */; };
+		82A5BA2020C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5BA1B20C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,17 +39,19 @@
 		21DA0A921FB11C8E008145E1 /* Demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
 		21DA0A9B1FB14635008145E1 /* UIViewController+BarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButton.h"; sourceTree = "<group>"; };
 		21DA0A9C1FB14635008145E1 /* UIViewController+BarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButton.m"; sourceTree = "<group>"; };
-		21DA0A9E1FB1464E008145E1 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
-		21DA0A9F1FB1464E008145E1 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
-		21DA0AA01FB1464E008145E1 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
-		21DA0AA11FB1464E008145E1 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
-		21DA0AA21FB1464E008145E1 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
-		21DA0AA31FB1464E008145E1 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
-		21DA0AA71FB22642008145E1 /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
-		21DA0AA81FB22642008145E1 /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
 		21DA0AAD1FB235D0008145E1 /* Demo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
 		21DA0AAE1FB235D0008145E1 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		21DA0AB31FB23ED4008145E1 /* Disqus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disqus.png; sourceTree = "<group>"; };
+		82A5BA1220C5FCEA00FF21DF /* UINavigationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UINavigationConfig.h; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationConfig.h"; sourceTree = "<group>"; };
+		82A5BA1320C5FCEA00FF21DF /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SXRuntime.h"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		82A5BA1420C5FCEA00FF21DF /* UINavigationConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UINavigationConfig.m; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationConfig.m"; sourceTree = "<group>"; };
+		82A5BA1520C5FCEA00FF21DF /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SXRuntime.m"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		82A5BA1620C5FCEA00FF21DF /* UINavigationController+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+SXFixSpace.h"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationController+SXFixSpace.h"; sourceTree = "<group>"; };
+		82A5BA1720C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+SXFixSpace.h"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
+		82A5BA1820C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+SXFixSpace.h"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationBar+SXFixSpace.h"; sourceTree = "<group>"; };
+		82A5BA1920C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+SXFixSpace.m"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
+		82A5BA1A20C5FCEA00FF21DF /* UINavigationController+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+SXFixSpace.m"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationController+SXFixSpace.m"; sourceTree = "<group>"; };
+		82A5BA1B20C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+SXFixSpace.m"; path = "../../../../Downloads/UINavigation-SXFixSpace-master/UINavigation-SXFixSpace/UINavigationBar+SXFixSpace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +108,16 @@
 		21DA0A9A1FB1461C008145E1 /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				21DA0A9F1FB1464E008145E1 /* NSObject+SXRuntime.h */,
-				21DA0AA11FB1464E008145E1 /* NSObject+SXRuntime.m */,
-				21DA0AA31FB1464E008145E1 /* UINavigation+SXFixSpace.h */,
-				21DA0AA01FB1464E008145E1 /* UINavigation+SXFixSpace.m */,
-				21DA0AA71FB22642008145E1 /* UIBarButtonItem+SXCreate.h */,
-				21DA0AA81FB22642008145E1 /* UIBarButtonItem+SXCreate.m */,
-				21DA0A9E1FB1464E008145E1 /* UINavigationController+SXFullScreen.h */,
-				21DA0AA21FB1464E008145E1 /* UINavigationController+SXFullScreen.m */,
+				82A5BA1320C5FCEA00FF21DF /* NSObject+SXRuntime.h */,
+				82A5BA1520C5FCEA00FF21DF /* NSObject+SXRuntime.m */,
+				82A5BA1820C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.h */,
+				82A5BA1B20C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.m */,
+				82A5BA1220C5FCEA00FF21DF /* UINavigationConfig.h */,
+				82A5BA1420C5FCEA00FF21DF /* UINavigationConfig.m */,
+				82A5BA1620C5FCEA00FF21DF /* UINavigationController+SXFixSpace.h */,
+				82A5BA1A20C5FCEA00FF21DF /* UINavigationController+SXFixSpace.m */,
+				82A5BA1720C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.h */,
+				82A5BA1920C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.m */,
 			);
 			path = UINavigationBar;
 			sourceTree = "<group>";
@@ -190,14 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				21DA0A801FB11C73008145E1 /* ViewController.m in Sources */,
-				21DA0AA41FB1464E008145E1 /* UINavigation+SXFixSpace.m in Sources */,
+				82A5BA1F20C5FCEA00FF21DF /* UINavigationController+SXFixSpace.m in Sources */,
+				82A5BA1D20C5FCEA00FF21DF /* NSObject+SXRuntime.m in Sources */,
 				21DA0A931FB11C8E008145E1 /* Demo1ViewController.m in Sources */,
-				21DA0AA61FB1464E008145E1 /* UINavigationController+SXFullScreen.m in Sources */,
-				21DA0AA51FB1464E008145E1 /* NSObject+SXRuntime.m in Sources */,
+				82A5BA1E20C5FCEA00FF21DF /* UINavigationItem+SXFixSpace.m in Sources */,
 				21DA0A8B1FB11C73008145E1 /* main.m in Sources */,
 				21DA0A7D1FB11C73008145E1 /* AppDelegate.m in Sources */,
 				21DA0AAF1FB235D0008145E1 /* Demo2ViewController.m in Sources */,
-				21DA0AA91FB22642008145E1 /* UIBarButtonItem+SXCreate.m in Sources */,
+				82A5BA2020C5FCEA00FF21DF /* UINavigationBar+SXFixSpace.m in Sources */,
+				82A5BA1C20C5FCEA00FF21DF /* UINavigationConfig.m in Sources */,
 				21DA0A9D1FB14635008145E1 /* UIViewController+BarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
